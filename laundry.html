@@ -45,15 +45,15 @@
     <h2>Book Now</h2>
     <form action="">
         <label for="name">Name:</label>
-        <input type="text" name="name" id="">
+        <input type="text" name="name" id="name" required placeholder="Enter your name">
 
         <label for="email">Email:</label>
-        <input type="email">
+        <input type="email" name="email" id="email" required placeholder="Enter your email">
 
         <label for="phone">Phone:</label>
-        <input type="tel" name="phone" id="">
+        <input type="tel" name="phone" id="phone" required pattern="[0-9]{10}" placeholder="10-digit phone number">
 
-        <input type="submit">
+        <input type="submit" value="Book Now">
     </form>
 
     <footer>
@@ -61,4 +61,5 @@
     </footer>
 </body>
 </html>
+
 
